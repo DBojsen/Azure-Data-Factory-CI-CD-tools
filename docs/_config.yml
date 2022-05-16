@@ -1,1 +1,4 @@
-theme: jekyll-theme-leap-day
+remote_theme: pmarsceill/just-the-docs
+color_scheme: dark
+title: Data Factory deployment
+description: Deployment tool for Data Factory
