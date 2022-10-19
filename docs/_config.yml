@@ -1,4 +1,4 @@
 remote_theme: pmarsceill/just-the-docs
 color_scheme: dark
-title: Data Factory deployment
-description: Deployment tool for Data Factory
+title: Azure Data Factory CI/CD tools
+description: CI/CD Tools for Data Factory
