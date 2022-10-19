@@ -3,6 +3,7 @@ layout: default
 title: Deployment task
 nav_order: 2
 has_children: true
+has_toc: false
 ---
 # Deployment of Data Factory resources
 
