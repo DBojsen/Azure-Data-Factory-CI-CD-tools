@@ -1,3 +1,9 @@
+---
+layout: default
+title: Deployment task
+nav_order: 2
+has_children: true
+---
 # Deployment of Data Factory resources
 {:toc}
 
