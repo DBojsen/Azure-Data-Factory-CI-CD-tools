@@ -1,11 +1,10 @@
 ---
 layout: default
-title: Home
+title: ADF CI/CD Tools
 nav_order: 1
 permalink: /
 ---
 # Welcome to Azure Data Factory CI/CD tools
-{:toc}
 
 ## Introduction
 Coming soon {: .label .label-yellow }

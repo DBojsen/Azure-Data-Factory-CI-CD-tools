@@ -5,10 +5,9 @@ nav_order: 2
 has_children: true
 ---
 # Deployment of Data Factory resources
-{:toc}
 
 ## Introduction
-Coming soon {: .label .label-yellow }
+Coming soon
 ## Why create a deployment tool
 
 ## Prerequisites
