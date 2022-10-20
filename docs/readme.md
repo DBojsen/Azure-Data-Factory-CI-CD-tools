@@ -25,7 +25,8 @@ This extension builds upon the experience we gathered doing this, and simplifies
 ### <span style="color:purple">Validation task</span>
 There are no prerequisites to start using the validation task.\
 Just install the extension and setup branch policies with build validation for any relevant branches.
-Head over to the [Validation task documentation](Validation/) for more info (* please note that this task has not yet been released)
+Head over to the [Validation task documentation](Validation/) for more info\
+(* please note that this task has not yet been released)
 ### <span style="color:purple">Deployment task - Azure</span>
 Before you can start using this task to deploy your Data Factory resources, a few things needs to be in place first:
 - Your 3 (or more environments) with a Data Factory resource in each
