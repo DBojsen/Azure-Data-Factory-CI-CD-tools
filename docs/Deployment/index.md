@@ -7,17 +7,10 @@ has_toc: false
 ---
 # Deployment of Data Factory resources
 
-## Introduction
-Coming soon
-## Why create a deployment tool
-
-## Prerequisites
-### Azure
-### Azure DevOps
-
-## Install and configure extension
-
-## Deploying using extension
-
-## Troubleshooting
-### Issue tracker on GitHub
+## Basic setup of the deployment task
+First you need to add the task to your pipeline.\
+Search for `deploy data factory` to quickly get to it:\
+<img src="../assets/1_AddTask.png">\
+\
+Now you need to configure it:\
+<img src="../assets/2_BasicSetup.png">
