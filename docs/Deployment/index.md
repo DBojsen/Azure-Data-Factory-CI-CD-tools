@@ -16,7 +16,7 @@ Search for `deploy data factory` to quickly get to it:\
 Now you need to configure it:\
 <img src="../assets/2_BasicSetup.png">\
 | Setting | Description |
-| --- | --- |
+|:---|:---|
 | ARM Connection | A service connection with at least contributor role on the Data Factory instance |
 | Subscription Id | The id of the subscription where your ADF is (preferably from a variable) |
 | Resource Group Name | Name of the Resource Group, where your ADF is. (preferably from a variable) |
