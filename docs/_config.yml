@@ -2,3 +2,4 @@ remote_theme: pmarsceill/just-the-docs
 color_scheme: dark
 title: Azure Data Factory CI/CD tools
 description: CI/CD Tools for Data Factory
+markdown: GFM
