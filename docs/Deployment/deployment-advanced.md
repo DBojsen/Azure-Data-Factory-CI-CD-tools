@@ -18,7 +18,7 @@ You can choose to provide the values inline (max 200 chars) or thru a file in yo
 
 Regardless if you use the inline or file approach, the supplied value must be a valid json array with the changes you want to make.\
 <img src="../assets/4_LSAdv_ReplaceInline.png"> <img src="../assets/5_LSAdv_ReplaceFile.png">\
-As an example, if you wanted to change the User Name and Base URL in the linked service on the screen shot above, your array should look like this:\
+As an example, if you wanted to change the User Name and Base URL in the linked service on the screen shot above, your array should look like this:
 ``` json
 [
     {
@@ -35,7 +35,7 @@ As an example, if you wanted to change the User Name and Base URL in the linked 
 You should only include the properties that you want to have changed.
 
 ## <span style="color:purple">Map names of Key Vault Linked Services</span>
-If you only have one Key Vault linked service in each environment, then it doesnøt matter if there are differences in the name between environments.\
+If you only have one Key Vault linked service in each environment, then it doesn't matter if there are differences in the name between environments.\
 Like KeyVaultDev, KeyVaultTest & KeyVaultProd (but why would you)\
 The task will automatically detect the name of the Key Vault Linked Service and make the appropriate mapping.\
 If you have more than one, and they have the same name in all environments, then no mapping is needed.\
@@ -43,7 +43,7 @@ In the rare case where you have multiple Key Vault Linked Services in each envir
 You can provide this inline or thru a file.\
 <img src="../assets/6_LSAdv_KVInline.png">
 <img src="../assets/7_LSAdv_KVFile.png">\
-It should be a valid json array, with a single property in each object mapping the name in the repo to the name in the environment, like this:\
+It should be a valid json array, with a single property in each object mapping the name in the repo to the name in the environment, like this:
 ``` json
 [
     {
