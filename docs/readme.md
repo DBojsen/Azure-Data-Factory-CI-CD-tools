@@ -4,14 +4,14 @@ title: ADF CI/CD Tools
 nav_order: 1
 permalink: /
 ---
-# <span style="color:purple">Welcome to Azure Data Factory CI/CD tools</span>
+# <span style="color:darkcyan">Welcome to Azure Data Factory CI/CD tools</span>
 
-## <span style="color:purple">Introduction</span>
+## <span style="color:darkcyan">Introduction</span>
 Hi, and welcome to my Azure Data Factory CI/CD tools Extension documentation page.\
 \
 This is a tool that I'm maintaining in my personal time, although I would like to thank my employeer [Kapacity A/S](https://www.kapacity.dk/) for allowing me to build this based on knowledge and experience I have gained while working as a Principal Architect there for the past many years.
 
-## <span style="color:purple">Why create a deployment tool</span>
+## <span style="color:darkcyan">Why create a deployment tool</span>
 Until recently, the [best practive from Microsoft](https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-delivery#cicd-lifecycle) to deploy Data Factory resources involved a manual step in the UI, which IMHO is a complete no-go in a CI/CD scenario.\
 They have since created a [new way of doing this](https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-delivery-improvements#continuous-deployment-improvements), that requires a build step that builds the json files into ARM templates.\
 I still feel that this process should be simpler and more user friendly.\
@@ -20,14 +20,14 @@ In Kapacity we have been deploying Data Factory resources for several years thru
 \
 This extension builds upon the experience we gathered doing this, and simplifies the process a lot also.
 
-## <span style="color:purple">Prerequisites</span>
+## <span style="color:darkcyan">Prerequisites</span>
 
-### <span style="color:purple">Validation task</span>
+### <span style="color:darkcyan">Validation task</span>
 There are no prerequisites to start using the validation task.\
 Just install the extension and setup branch policies with build validation for any relevant branches.
 Head over to the [Validation task documentation](Validation/) for more info\
 (* please note that this task has not yet been released)
-### <span style="color:purple">Deployment task - Azure</span>
+### <span style="color:darkcyan">Deployment task - Azure</span>
 Before you can start using this task to deploy your Data Factory resources, a few things needs to be in place first:
 - Your 3 (or more environments) with a Data Factory resource in each
 - Any global parameters needed should already have been configured
@@ -35,21 +35,21 @@ Before you can start using this task to deploy your Data Factory resources, a fe
 - If you need to use one (or more) Self Hosted Integration Runtimes, they should already have been configured.
 
 In my opinion, all of the above belongs in your Infrastructure as Code, and not as part of deploying Data Factory resources.
-### <span style="color:purple">Deployment task - Azure DevOps</span>
+### <span style="color:darkcyan">Deployment task - Azure DevOps</span>
 You need to have a service connection configured for each environment, that have at least contributor rights on the Data Factory resource.\
 In most cases, you should already have one, that have contributor rights to the entire resource group, that you use to deploy other resources such as IaC, Database or the likes.
-## <span style="color:purple">Install and configure extension</span>
+## <span style="color:darkcyan">Install and configure extension</span>
 It's as simple as going to [Azure Data Factory CI/CD tools on Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=DavidBojsen.dbojsen-datafactory-cicd-tools) and click [Get it free].\
 You will need to have the right permission setup, in order to do this.
 Please see [the Microsoft documentation](https://learn.microsoft.com/en-us/azure/devops/marketplace/request-extensions?view=azure-devops) for details.
 
-## <span style="color:purple">Troubleshooting</span>
+## <span style="color:darkcyan">Troubleshooting</span>
 If you are having issues using this extension, please first look at the [troubleshooting](troubleshooting.html) page.\
 If you do not find the solution there, please feel free to create an issue (see next topic)
-### <span style="color:purple">Issue tracker on GitHub</span>
+### <span style="color:darkcyan">Issue tracker on GitHub</span>
 You will find the [issue tracker here](https://github.com/DBojsen/Azure-Data-Factory-CI-CD-tools/issues).\
 Please do a search before creating an issue, to see if it has already been reported.
-### <span style="color:purple">Feature requests</span>
+### <span style="color:darkcyan">Feature requests</span>
 Feature requests are very welcome.\
 Please use the issue tracker mentioned in the previous section to report them.\
 \

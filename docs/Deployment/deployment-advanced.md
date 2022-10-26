@@ -4,9 +4,9 @@ title: Deployment task advanced
 parent: Deployment task
 nav_order: 2
 ---
-# <span style="color:purple">Advanced deployment</span>
+# <span style="color:darkcyan">Advanced deployment</span>
 
-## <span style="color:purple">Replace values in Linked Service definitions</span>
+## <span style="color:darkcyan">Replace values in Linked Service definitions</span>
 It is highly recommended to use Key Vault secrets for all parameters in Linked Services, which changes between environments.\
 Even the ones that doesn't have UI support, like the User Name and Base URL on the REST Linked Service, using the method described here:\
 [Use Key Vault Secrets in any Azure Data Factory connection property](https://medium.com/@damoo/use-key-vault-secrets-in-any-azure-data-factory-connection-property-943ca0d8f26f).\
@@ -34,7 +34,7 @@ As an example, if you wanted to change the User Name and Base URL in the linked 
 ```
 You should only include the properties that you want to have changed.
 
-## <span style="color:purple">Map names of Key Vault Linked Services</span>
+## <span style="color:darkcyan">Map names of Key Vault Linked Services</span>
 If you only have one Key Vault linked service in each environment, then it doesn't matter if there are differences in the name between environments.\
 Like KeyVaultDev, KeyVaultTest & KeyVaultProd (but why would you)\
 The task will automatically detect the name of the Key Vault Linked Service and make the appropriate mapping.\
@@ -52,7 +52,7 @@ It should be a valid json array, with a single property in each object mapping t
 ]
 ```
 
-## <span style="color:purple">Replace values in Trigger definitions</span>
+## <span style="color:darkcyan">Replace values in Trigger definitions</span>
 Like with Linked Service definitions, you can modify a triggers for a specific environment\
 These changes can also be supplied either inline or thru a file:\
 <img src="../assets/8_TgAdv_ReplaceValues.png">\
@@ -93,7 +93,7 @@ and in another environment, you don't even want this trigger to run:
 ```
 Please note, that you should only provide the properties with changes.
 
-## <span style="color:purple">Replace SHIR names</span>
+## <span style="color:darkcyan">Replace SHIR names</span>
 Just like with Key Vault Linked Services, you can provide a mapping table for the name of Integration Runtimes.\
 It is only needed if you have MORE than one SHIR, and they are NOT named the same in the environments:\
 <img src="../assets/9_SHIRAdv_Replace.png">\
