@@ -9,7 +9,7 @@ nav_order: 2
 ## <span style="color:darkcyan">Replace values in Linked Service definitions</span>
 It is highly recommended to use Key Vault secrets for all parameters in Linked Services, which changes between environments.\
 Even the ones that doesn't have UI support, like the User Name and Base URL on the REST Linked Service, using the method described here:\
-[Use Key Vault Secrets in any Azure Data Factory connection property](https://medium.com/@damoo/use-key-vault-secrets-in-any-azure-data-factory-connection-property-943ca0d8f26f).\
+<a href="https://medium.com/@damoo/use-key-vault-secrets-in-any-azure-data-factory-connection-property-943ca0d8f26f" target="_blank">Use Key Vault Secrets in any Azure Data Factory connection property</a>.\
 <img src="../assets/rest ls keyvault.png" width="350">\
 
 If you for some reason cannot do this, or for any other reason need to modify a Linked Service before deploying it to an environment, this feature is for you.\

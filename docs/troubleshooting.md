@@ -13,10 +13,10 @@ I would like to thank Susana at DSV for excellent help in finding all my bugs ;-
 Issues during setup are most likely due to you not having the right permissions to install or request extensions in your Azure DevOps organization.\
 (Extensions install at organization level, not project)\
 \
-If you fail to locate the issue, please submit an [issue on GitHub](https://github.com/DBojsen/Azure-Data-Factory-CI-CD-tools/issues).
+If you fail to locate the issue, please submit an <a href="https://github.com/DBojsen/Azure-Data-Factory-CI-CD-tools/issues" target="_blank">issue on GitHub</a>.
 
 ## <span style="color:darkcyan">Issues during deployment</span>
 If you encounter issues during deployment, please pay close attention to the information in the log.\
 Most issues have a perfect natural explanation such as invalid configuration in a pipeline, linked service, trigger or other.\
 \
-If you fail to locate the issue, please submit an [issue on GitHub](https://github.com/DBojsen/Azure-Data-Factory-CI-CD-tools/issues).
+If you fail to locate the issue, please submit an <a href="https://github.com/DBojsen/Azure-Data-Factory-CI-CD-tools/issues" target="_blank">issue on GitHub</a>.
